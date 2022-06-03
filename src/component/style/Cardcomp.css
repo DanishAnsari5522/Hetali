@@ -1,0 +1,28 @@
+.cards{
+    height: 300px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 5px;
+}
+
+
+.icon_size{
+    font-size: 50px;
+    /* background: linear-gradient(red,#ffff00); */
+    color:rgb(114, 81, 167);
+
+}
+
+
+
+
+@media screen and (max-height:600px)
+{
+    .cards{
+        height: 400px;
+        width: 100%;
+    }
+    
+
+}

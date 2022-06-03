@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'muli' ,sans-serif;
+}
+
+a{
+    text-decoration:none;
+    margin:10px;
+    padding-top:6px;
+    color:rgb(104, 96, 96);
+}
+
+.menu_active{
+    font-weight: bold;
+    border-bottom:1px solid rgb(73, 69, 69);
+    color:rgb(73, 69, 69);
+}
+
+.dan{
+    color:rgb(104, 96, 96);
+    text-decoration: none;
+}
+
+.dan:hover{
+    color:rgb(104, 96, 96);
+}
+@media screen and (max-width:500px)
+{
+    a{
+        margin: 0;
+        padding-top:0;
+        align-items: left;
+    }
+}
