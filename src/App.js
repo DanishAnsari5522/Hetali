@@ -6,24 +6,29 @@ import { Button } from 'react-bootstrap'
 // import Contact from './Contact'
 // import Service from './Service'
 import Navigation from './Navigation'
-
+import Footer from './component/footer'
 import Home from './component/Home'
 import UnderWork from './component/underwork'
+import './App.css'
 
 
 function App() {
   return (
-    <div>
+    <div class="bg_img">
 
       <BrowserRouter>
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={UnderWork} />
-          <Route exact path="/contact" component={UnderWork} />
-          <Route exatc path="/services" component={UnderWork} />
+          <Route exact path="/project" component={UnderWork} />
+          <Route exact path="/diversification" component={UnderWork} />
+          <Route exatc path="/process" component={UnderWork} />
+          <Route exact path="/testimonials" component={UnderWork} />
+          <Route exact path="/careers" component={UnderWork} />
+          <Route exatc path="/contact" component={UnderWork} />
           <Redirect to="/" />
         </Switch>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

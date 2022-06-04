@@ -43,8 +43,8 @@ function Home() {
 
                 </div>
                 <div class="vision">
-                    <div class="text-center">VISION</div>
-                    <div class="text-center vision_para" >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio</div>
+                    <div class="text-center vis">VISION</div>
+                    <div class="text-center vision_para">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio</div>
                 </div>
 
                 <div class="mission_div">
@@ -113,18 +113,25 @@ function Home() {
                     <div class="text-center">FOUNDER's MESSAGE</div>
                     <div class="founder_img text-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa539wKZMAz7c4otpnn8J-IAhzVcDuOjwHOw&usqp=CAU" /></div>
                     <div class="text-center nam">Mr. Jayesh H. Pandya</div>
+                    <div class="about_founder">
+                        <p class="text-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</p>
+                    </div>
                     <div>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</p>
                     </div>
-                    <diiv>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</p>
-                    </diiv>
+                </div>
+                <div class="group_companies">
+                    <div class="text-center mission">GROUP COMPANIES</div>
+                    <div class="group">
+                        <div class="agriculter"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa539wKZMAz7c4otpnn8J-IAhzVcDuOjwHOw&usqp=CAU"/><div class="font text-center ">Agriculture</div></div>
+                        <div class="fuel"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa539wKZMAz7c4otpnn8J-IAhzVcDuOjwHOw&usqp=CAU"/><div class="text-center font">Fuel</div></div>
+                        <div class="foods"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa539wKZMAz7c4otpnn8J-IAhzVcDuOjwHOw&usqp=CAU"/><div class="text-center font">Foods</div></div>
+                    </div>
+                    </div>
 
 
                 </div>
-
             </div>
-        </div>
     )
 }
 

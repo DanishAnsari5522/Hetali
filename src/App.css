@@ -12,6 +12,14 @@
   text-decoration: none;
 }
 
+
+.bg_img
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzW4GyYFBJbQ1PBnEVtjzSltTX1WijFUSKug&usqp=CAU");
+  background-size: cover;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

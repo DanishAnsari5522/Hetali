@@ -17,11 +17,12 @@
 
 
 
-@media screen and (max-height:600px)
+@media screen and (max-width:500px)
 {
     .cards{
-        height: 400px;
-        width: 100%;
+        height: 450px;
+        width: 135%;
+        margin-left: -40px;
     }
     
 
