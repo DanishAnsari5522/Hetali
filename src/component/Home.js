@@ -3,6 +3,7 @@ import './style/home.css'
 import { Card, Col } from 'react-bootstrap'
 import Carddata from './Carddata'
 import Cardcomp from './Cardcomp'
+import Footer from './footer'
 
 function Home() {
     return (
@@ -129,7 +130,7 @@ function Home() {
                     </div>
                     </div>
 
-
+<Footer />
                 </div>
             </div>
     )

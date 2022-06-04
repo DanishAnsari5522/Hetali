@@ -28,7 +28,6 @@ function App() {
           <Route exatc path="/contact" component={UnderWork} />
           <Redirect to="/" />
         </Switch>
-        <Footer/>
       </BrowserRouter>
     </div>
   );
